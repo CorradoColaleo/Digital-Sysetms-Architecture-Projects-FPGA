@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../DEMUX_1_4/DEMUX_1_4.srcs/sources_1/new/DEMUX_1_4.vhd" \
+"../../../../../MUX_16_1/MUX_16_1.srcs/sources_1/new/MUX_16_1.vhd" \
+"../../../../MUX16_1_DEMUX_4_1.srcs/sources_1/new/RETE_DI_INTERCONNESSIONE.vhd" \
+"../../../../../../Vivado_Projects/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/imports/1-multiplexer21_dataflow/mux_2_1.vhd" \
+"../../../../../../Vivado_Projects/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd" \
+"../../../../MUX16_1_DEMUX_4_1.srcs/sim_1/new/tb_rete_di_interconnessione.vhd" \
+
+# Do not sort compile order
+nosort
