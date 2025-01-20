@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Dec  2 13:17:45 2024
+# Process ID: 3004
+# Current directory: C:/VivadoProject/Progetto2/ROM_M_MACHINE/ROM_M_MACHINE.runs/impl_1
+# Command line: vivado.exe -log ROM_M_MACHINE.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ROM_M_MACHINE.tcl -notrace
+# Log file: C:/VivadoProject/Progetto2/ROM_M_MACHINE/ROM_M_MACHINE.runs/impl_1/ROM_M_MACHINE.vdi
+# Journal file: C:/VivadoProject/Progetto2/ROM_M_MACHINE/ROM_M_MACHINE.runs/impl_1\vivado.jou
+# Running On: GIOVANNA, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 2, Host memory: 8379 MB
+#-----------------------------------------------------------
+source ROM_M_MACHINE.tcl -notrace
