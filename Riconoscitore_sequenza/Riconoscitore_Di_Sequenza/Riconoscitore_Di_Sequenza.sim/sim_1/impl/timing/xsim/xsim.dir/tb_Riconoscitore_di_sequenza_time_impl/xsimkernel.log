@@ -1,7 +1,0 @@
-Running: xsim.dir/tb_Riconoscitore_di_sequenza_time_impl/xsimk.exe -simmode gui -wdb tb_Riconoscitore_di_sequenza_time_impl.wdb -simrunnum 0 -socket 50994
-Design successfully loaded
-Design Loading Memory Usage: 10772 KB (Peak: 10772 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 11576 KB (Peak: 11576 KB)
-Simulation CPU Usage: 15 ms
