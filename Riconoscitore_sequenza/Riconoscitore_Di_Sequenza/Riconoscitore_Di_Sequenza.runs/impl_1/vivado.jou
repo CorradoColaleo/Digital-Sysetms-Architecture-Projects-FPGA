@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jan 20 17:56:08 2025
+# Process ID: 3184
+# Current directory: C:/Users/ricca/OneDrive/Desktop/Progetti ASDI/Riconoscitore_Di_Sequenza/Riconoscitore_Di_Sequenza.runs/impl_1
+# Command line: vivado.exe -log Riconoscitore_di_sequenza.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Riconoscitore_di_sequenza.tcl -notrace
+# Log file: C:/Users/ricca/OneDrive/Desktop/Progetti ASDI/Riconoscitore_Di_Sequenza/Riconoscitore_Di_Sequenza.runs/impl_1/Riconoscitore_di_sequenza.vdi
+# Journal file: C:/Users/ricca/OneDrive/Desktop/Progetti ASDI/Riconoscitore_Di_Sequenza/Riconoscitore_Di_Sequenza.runs/impl_1\vivado.jou
+# Running On: LAPTOP-5LHV3CRU, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34111 MB
+#-----------------------------------------------------------
+source Riconoscitore_di_sequenza.tcl -notrace
