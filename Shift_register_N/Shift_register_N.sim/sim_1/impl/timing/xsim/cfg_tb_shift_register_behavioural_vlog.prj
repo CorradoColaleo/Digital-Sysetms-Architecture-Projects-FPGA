@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"cfg_tb_shift_register_behavioural_time_impl.v" \
+
+# Do not sort compile order
+nosort

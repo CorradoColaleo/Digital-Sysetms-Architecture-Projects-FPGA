@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jan 21 17:04:43 2025
+# Process ID: 4648
+# Current directory: C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8860 C:\Users\corra\Desktop\Digital Sysetms Architecture Projects\Sistema_lettura_elaborazione_scrittura_PO_PC\Sistema_lettura_elaborazione_scrittura_PO_PC.xpr
+# Log file: C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/vivado.log
+# Journal file: C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC\vivado.jou
+# Running On: LAPTOP-IUC6KUAA, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16856 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/Sistema_lettura_elaborazione_scrittura_PO_PC.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/APPENDICE/ROM_N_8/ROM_N_8.srcs/sources_1/new/ROM_N_8.vhd} {C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/APPENDICE/MEMORIA_N_4/MEMORIA_N_4.srcs/sources_1/new/MEMORIA_N_4.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/Sistema_lettura_elaborazione_scrittura_PO_PC.srcs/sources_1/new/Sistema_lettura_elaborazione_scrittura.vhd} w ]
+add_files {{C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/Sistema_lettura_elaborazione_scrittura_PO_PC.srcs/sources_1/new/Sistema_lettura_elaborazione_scrittura.vhd}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Sistema_lettura_elaborazione_scrittura [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/Sistema_lettura_elaborazione_scrittura_PO_PC.srcs/sim_1/new/tb_sistema_lettura_elaborazione_scrittura.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/Sistema_lettura_elaborazione_scrittura_PO_PC.srcs/sim_1/new/tb_sistema_lettura_elaborazione_scrittura.vhd}}
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation -mode post-implementation -type timing
+source cfg_tb_macchina_combinatoria.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_Sistema_lettura_elaborazione_scrittura [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation -mode post-implementation -type timing
+relaunch_sim
+export_ip_user_files -of_objects  [get_files {{C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/Sistema_lettura_elaborazione_scrittura_PO_PC.srcs/sim_1/new/tb_macchina_combinatoria.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/Sistema_lettura_elaborazione_scrittura_PO_PC.srcs/sim_1/new/tb_macchina_combinatoria.vhd}}
+remove_files  -fileset sim_1 {{C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/Sistema_lettura_elaborazione_scrittura_PO_PC.srcs/sim_1/new/tb_macchina_combinatoria.vhd}}
+file delete -force {C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Sistema_lettura_elaborazione_scrittura_PO_PC/Sistema_lettura_elaborazione_scrittura_PO_PC.srcs/sim_1/new/tb_macchina_combinatoria.vhd}
+launch_simulation -mode post-implementation -type timing
+close_sim

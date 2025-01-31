@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../DEMUX_1_4/DEMUX_1_4.srcs/sources_1/new/DEMUX_1_4.vhd" \
+"../../../../../MUX_16_1/MUX_16_1.srcs/sources_1/new/MUX_16_1.vhd" \
+"../../../../../MUX16_1_DEMUX_4_1/MUX16_1_DEMUX_4_1.srcs/sources_1/new/RETE_DI_INTERCONNESSIONE.vhd" \
+"../../../../MUX16_1_DEMUX_4_1_BOARD.srcs/sources_1/new/RETE_INTERCONNESSIONE_BOARD.vhd" \
+"../../../../../CONTROL_UNIT/CONTROL_UNIT.srcs/sources_1/new/control_unit.vhd" \
+"../../../../../../../Vivado_Projects/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd" \
+"../../../../../../../Vivado_Projects/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd" \
+"../../../../MUX16_1_DEMUX_4_1_BOARD.srcs/sim_1/new/tb_RETE_DI_INTERCONNESSIONE_BOARD_1.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Comunicazione_Seriale/Comunicazione_Seriale.sim/sim_1/impl/timing/xsim/tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM32M_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD3
+INFO: [VRFC 10-311] analyzing module Comunicazione_seriale
+INFO: [VRFC 10-311] analyzing module NodoA
+INFO: [VRFC 10-311] analyzing module NodoB
+INFO: [VRFC 10-311] analyzing module Rete_controllo_A
+INFO: [VRFC 10-311] analyzing module Rete_controllo_B
+INFO: [VRFC 10-311] analyzing module Rs232RefComp
+INFO: [VRFC 10-311] analyzing module Rs232RefComp_0
+INFO: [VRFC 10-311] analyzing module Wom_N_M
+INFO: [VRFC 10-311] analyzing module glbl

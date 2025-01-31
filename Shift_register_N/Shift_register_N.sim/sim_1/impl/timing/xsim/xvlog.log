@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/corra/Desktop/Digital Sysetms Architecture Projects/Shift_register_N/Shift_register_N.sim/sim_1/impl/timing/xsim/cfg_tb_shift_register_behavioural_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift_register_behavioural
+INFO: [VRFC 10-311] analyzing module glbl

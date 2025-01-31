@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Comunicazione_Seriale.srcs/sources_1/new/Comunicazione_seriale.vhd" \
+"../../../../Comunicazione_Seriale.srcs/sources_1/new/ContModM.vhd" \
+"../../../../Comunicazione_Seriale.srcs/sources_1/new/NodoA.vhd" \
+"../../../../Comunicazione_Seriale.srcs/sources_1/new/NodoB.vhd" \
+"../../../../Comunicazione_Seriale.srcs/sources_1/new/ROM_N_M.vhd" \
+"../../../../Comunicazione_Seriale.srcs/sources_1/new/Rete_controllo_A.vhd" \
+"../../../../Comunicazione_Seriale.srcs/sources_1/new/Rete_controllo_B.vhd" \
+"../../../../Comunicazione_Seriale.srcs/sources_1/new/Rs232RefComp.vhd" \
+"../../../../Comunicazione_Seriale.srcs/sources_1/new/Wom_N_M.vhd" \
+"../../../../Comunicazione_Seriale.srcs/sim_1/new/tb.vhd" \
+
+# Do not sort compile order
+nosort

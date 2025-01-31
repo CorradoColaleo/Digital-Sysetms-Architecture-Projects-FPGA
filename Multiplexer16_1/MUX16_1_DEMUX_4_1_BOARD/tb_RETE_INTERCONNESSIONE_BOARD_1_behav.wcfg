@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_RETE_INTERCONNESSIONE_BOARD_1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_RETE_INTERCONNESSIONE_BOARD_1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8.974 ns"></ZoomStartTime>
+      <ZoomEndTime time="288.975 ns"></ZoomEndTime>
+      <Cursor1Time time="280.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="381"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/load_first_part" type="logic">
+      <obj_property name="ElementShortName">load_first_part</obj_property>
+      <obj_property name="ObjectShortName">load_first_part</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/load_second_part" type="logic">
+      <obj_property name="ElementShortName">load_second_part</obj_property>
+      <obj_property name="ObjectShortName">load_second_part</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/load_selection" type="logic">
+      <obj_property name="ElementShortName">load_selection</obj_property>
+      <obj_property name="ObjectShortName">load_selection</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/value8_in" type="array">
+      <obj_property name="ElementShortName">value8_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">value8_in[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/selection_demux" type="array">
+      <obj_property name="ElementShortName">selection_demux[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selection_demux[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/selection_mux" type="array">
+      <obj_property name="ElementShortName">selection_mux[3:0]</obj_property>
+      <obj_property name="ObjectShortName">selection_mux[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/y" type="array">
+      <obj_property name="ElementShortName">y[3:0]</obj_property>
+      <obj_property name="ObjectShortName">y[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RETE_INTERCONNESSIONE_BOARD_1/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

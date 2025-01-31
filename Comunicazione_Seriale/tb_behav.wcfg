@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="600.072000 us"></ZoomStartTime>
+      <ZoomEndTime time="619.952001 us"></ZoomEndTime>
+      <Cursor1Time time="643.612000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="178"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Start" type="logic">
+      <obj_property name="ElementShortName">Start</obj_property>
+      <obj_property name="ObjectShortName">Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/tx_rst" type="logic">
+      <obj_property name="ElementShortName">tx_rst</obj_property>
+      <obj_property name="ObjectShortName">tx_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rx_rst" type="logic">
+      <obj_property name="ElementShortName">rx_rst</obj_property>
+      <obj_property name="ObjectShortName">rx_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Data" type="array">
+      <obj_property name="ElementShortName">Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/PE" type="logic">
+      <obj_property name="ElementShortName">PE</obj_property>
+      <obj_property name="ObjectShortName">PE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/FE" type="logic">
+      <obj_property name="ElementShortName">FE</obj_property>
+      <obj_property name="ObjectShortName">FE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/OE" type="logic">
+      <obj_property name="ElementShortName">OE</obj_property>
+      <obj_property name="ObjectShortName">OE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/rc_A/curr_state" type="other">
+      <obj_property name="ElementShortName">curr_state</obj_property>
+      <obj_property name="ObjectShortName">curr_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/rc_A/y_count" type="array">
+      <obj_property name="ElementShortName">y_count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">y_count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/tx_uart/TXD" type="logic">
+      <obj_property name="ElementShortName">TXD</obj_property>
+      <obj_property name="ObjectShortName">TXD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/tx_uart/tfCtr" type="array">
+      <obj_property name="ElementShortName">tfCtr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tfCtr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/tx_uart/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/tx_uart/rClk" type="logic">
+      <obj_property name="ElementShortName">rClk</obj_property>
+      <obj_property name="ObjectShortName">rClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/tx_uart/clkDiv" type="array">
+      <obj_property name="ElementShortName">clkDiv[8:0]</obj_property>
+      <obj_property name="ObjectShortName">clkDiv[8:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/tx_uart/rClkDiv" type="array">
+      <obj_property name="ElementShortName">rClkDiv[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rClkDiv[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/tx_uart/tClk" type="logic">
+      <obj_property name="ElementShortName">tClk</obj_property>
+      <obj_property name="ObjectShortName">tClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/tx_uart/TBE" type="logic">
+      <obj_property name="ElementShortName">TBE</obj_property>
+      <obj_property name="ObjectShortName">TBE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/tx_uart/sttCur" type="other">
+      <obj_property name="ElementShortName">sttCur</obj_property>
+      <obj_property name="ObjectShortName">sttCur</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/rc_A/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_a/rc_A/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_b/rc_B/curr_state" type="other">
+      <obj_property name="ElementShortName">curr_state</obj_property>
+      <obj_property name="ObjectShortName">curr_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_b/rc_B/RDA" type="logic">
+      <obj_property name="ElementShortName">RDA</obj_property>
+      <obj_property name="ObjectShortName">RDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UUT/nodo_b/rc_B/RD" type="logic">
+      <obj_property name="ElementShortName">RD</obj_property>
+      <obj_property name="ObjectShortName">RD</obj_property>
+   </wvobject>
+</wave_config>
