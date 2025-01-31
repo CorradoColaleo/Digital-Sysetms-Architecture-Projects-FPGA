@@ -1,4 +1,0 @@
-Time resolution is 1 ps
-Failure: Fine della simulazione
-Time: 380 ns  Iteration: 0  Process: /tb_RETE_INTERCONNESSIONE_BOARD_1/stimulus_process  File: C:/Users/corra/Desktop/Elaborato/Progetto1/MUX16_1_DEMUX_4_1_BOARD/MUX16_1_DEMUX_4_1_BOARD.srcs/sim_1/new/tb_RETE_DI_INTERCONNESSIONE_BOARD_1.vhd
-$finish called at time : 380 ns : File "C:/Users/corra/Desktop/Elaborato/Progetto1/MUX16_1_DEMUX_4_1_BOARD/MUX16_1_DEMUX_4_1_BOARD.srcs/sim_1/new/tb_RETE_DI_INTERCONNESSIONE_BOARD_1.vhd" Line 105
